@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #6b4f4f;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #c89f94;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #6b4f4f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #6b4f4f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Coffee Shop</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>WELCOME TO MY COFFEE SHOP</h1>
+        <p>Coffee is the answer to all problems.</p>
+        <a href="#" class="btn">Order Now</a>
+    </section>
+
+    <section class="menu">
+        <h2>Our Coffee Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Espresso</h3>
+                <p>Strong and bold espresso shot.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Latte</h3>
+                <p>Creamy and smooth with steamed milk.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Cappuccino</h3>
+                <p>A classic blend of coffee and frothy milk.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;Coffee Shop | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
